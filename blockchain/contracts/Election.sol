@@ -23,7 +23,6 @@ contract Election is Initializable {
     }
 
     struct Candidate {
-        uint candidateID; // remove candidateId its not needed
         string name;
         string description;
     }
